@@ -10,8 +10,11 @@ import UIKit
 
 class TimeController: UIViewController {
 
+    @IBOutlet weak var MONTHS: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        MONTHS.layer.cornerRadius = 10
 
     }
 
