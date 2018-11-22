@@ -16,5 +16,6 @@ struct LetterData {
 
 struct NumberData {
     var number: String
+    var numimage: UIImage
 }
 

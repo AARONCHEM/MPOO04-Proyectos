@@ -11,12 +11,15 @@ import UIKit
 class NumberViewController: UIViewController {
 
     @IBOutlet weak var number: UILabel!
+    @IBOutlet weak var NUMIMAGE: UIImageView!
     var NUMBER: NumberData!
+    var IMAGENUM: NumberData!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         number.text = NUMBER.number
+        NUMIMAGE.image = IMAGENUM.numimage
     }
 
 }
